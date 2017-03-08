@@ -18,6 +18,6 @@ describe StringNamify do
   end
 
   it 'namify strings with dash' do
-    expect("andrea-rampin".namify).to eq("Andrea-rampin")
+    expect("andrea-rampin".namify).to eq("Andrea-Rampin")
   end
 end
